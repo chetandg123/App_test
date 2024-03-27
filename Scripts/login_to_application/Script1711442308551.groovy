@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Mobile.startApplication(GlobalVariable.G_AppPath, true)
+Mobile.startApplication(GlobalVariable.G_AppPath, true)
 
 Mobile.comment("Starting the Installation of the Application ")
 
-Mobile.startApplication('bs://5e430f94ae84ae26a28dcfce15f922fc0dedf48d', true)
+//Mobile.startApplication('bs://5e430f94ae84ae26a28dcfce15f922fc0dedf48d', true)
 
 Mobile.tap(findTestObject('Object Repository/Application/valid_login/android.widget.TextView - Submit'), 0)
 
